@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le :  Dim 26 avr. 2020 à 15:59
+-- Généré le :  mar. 28 avr. 2020 à 12:54
 -- Version du serveur :  10.4.11-MariaDB
 -- Version de PHP :  7.3.13
 
@@ -32,15 +32,6 @@ CREATE TABLE `marques` (
   `id_marque` int(11) NOT NULL,
   `marque` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Déchargement des données de la table `marques`
---
-
-INSERT INTO `marques` (`id_marque`, `marque`) VALUES
-(28, 'YAMAHA'),
-(29, 'RATO'),
-(30, 'SIRUS');
 
 -- --------------------------------------------------------
 
@@ -74,8 +65,7 @@ CREATE TABLE `utilisateur` (
 --
 
 INSERT INTO `utilisateur` (`email`, `mot_de_passe`) VALUES
-('abdoulmotor@gmail.com', 'binome5'),
-('mandson1er@gmail.com', 'bootstrap');
+('abdoulmotor@gmail.com', '5fa39d089b913bc8a1cb7838dc3c7a09bb020037');
 
 --
 -- Index pour les tables déchargées
@@ -103,7 +93,7 @@ ALTER TABLE `moto`
 -- AUTO_INCREMENT pour la table `marques`
 --
 ALTER TABLE `marques`
-  MODIFY `id_marque` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id_marque` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 
 --
 -- AUTO_INCREMENT pour la table `moto`
